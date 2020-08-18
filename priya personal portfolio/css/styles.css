@@ -304,15 +304,9 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #2b2e32;
-  margin-left: -150px;
   margin-top: 20px;
-  margin-right: -100px;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-  background-image: linear-gradient(#484e55, #3a3f44 60%, #313539);
-background-repeat: no-repeat;
-border-radius: 4px;
-}
+ }
 
 #footer .copyright {
   text-align: center;
