@@ -4,6 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
 !(function($) {
   "use strict";
 
@@ -114,6 +115,13 @@
     }, 1500, 'easeInOutExpo');
     return false;
   });
+  $(".events-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
 
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
