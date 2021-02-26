@@ -668,9 +668,13 @@ color:#e3e5e6;
 
 
 .social ul {
-margin:5px 0 0;
-padding:0
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
 }
+
 
 .social li {
 display:inline-block;
@@ -788,4 +792,9 @@ color:#3498db
   .events .testimonial-item p {
     width: 80%;
   }
+}
+#tagline{
+  overflow: hidden;
+  text-align: justify;
+  text-justify:inter-word;
 }
